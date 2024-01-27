@@ -1,0 +1,19 @@
+{
+  "name": "magenta-reader",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "vitest",
+    "start": "tsx src/index.ts",
+    "test": "vitest run"
+  },
+  "devDependencies": {
+    "@tonejs/midi": "^2.0.28",
+    "@types/node": "^20.11.6",
+    "protobufjs": "^7.2.6",
+    "tsx": "^4.7.0",
+    "typescript": "^5.3.3",
+    "vitest": "^1.2.1"
+  }
+}
